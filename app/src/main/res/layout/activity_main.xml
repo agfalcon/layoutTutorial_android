@@ -5,20 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:gravity="center">
 
     <View
-        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="#FD8787"
         />
     <View
-        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="#7887DA"
         />
     <View
-        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="#FFF5A2"
         />
